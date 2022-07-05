@@ -34,6 +34,7 @@ a{
 .button-apple{
     background-color: rgb(0, 132, 253);
     color: white;
+    
 }
 
 /* container & row */
@@ -146,7 +147,7 @@ header{
 
 .card_button{
     width: 200px;
-       
+    margin-top: 30px;
 }
 .card_button .button-apple{
     padding: 8px 40px;
@@ -224,4 +225,72 @@ header{
     }
     .col{
         width: calc(100% / 3 - 65px);}
+}
+
+
+
+
+
+/* seconda section versione mobile */
+
+.section_planning{
+    background-color: rgb(151, 146, 228);
+}
+.container_planning{
+    width: 100%;
+    padding: 60px 0;
+}
+.row_planning{
+    display: flex;
+    flex-direction: column;
+}
+
+.col-left{
+    color: white;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.col-left .figure{
+    margin-bottom: 130px;
+}
+.col-left .title_planning{
+    font-size: 32px;
+    margin-bottom: 60px;
+}
+.col-left .p_planning{
+    font-size: 1rem;
+    padding-bottom: 10px;
+    line-height: 2rem;
+}
+.col-right{
+    padding: 30px;
+}
+.card_planning{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: white;
+    border-radius: 50px;
+    gap: 30px;
+    padding: 36px;
+}
+
+.card_planning .download{
+    background-color: rgb(151, 146, 228) ;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    padding: 30px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_planning i{
+    font-size: 20px;
+    text-align: center;
 }
