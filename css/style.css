@@ -149,7 +149,7 @@ header{
        
 }
 .card_button .button-apple{
-    padding: 16px 40px;
+    padding: 8px 40px;
 }
 
 /* card-small */
@@ -165,4 +165,63 @@ header{
 
 .card-small .card-header p{
     text-align: center;
+}
+
+
+/* prima sezione versione Tablet */
+
+@media (min-width:810px){
+
+    .container_main{
+        max-width: 810px;
+        margin: 0 auto;
+    }
+
+    .row_demo{
+        width:750px;
+        
+    }
+    .col{
+        width: calc(100% / 3 - 28px);
+    }
+    .row_demo .col-doble{
+        width: 480px;
+        height: 565px;
+    }
+    .card_demo{
+        width: 100%;
+        height: 100%;
+    }
+    .card_figure{
+        width: 50%;
+    }
+}
+
+
+/* prima sezione versione desk */
+@media (min-width:1920px) {
+    .container_main{
+        max-width: 1130px;
+    }
+    .row_demo .col-doble{
+        width: 745px;
+        height: 400px;
+    }
+    .col-doble .card_demo{
+        flex-direction: row;
+        gap: 0;
+    }
+    .col-doble .card_figure{
+        width: 100%;
+        align-self: flex-end;
+    }
+    .card_wrapper{
+        padding-right: 30px;
+    }
+    .row_demo{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .col{
+        width: calc(100% / 3 - 65px);}
 }
