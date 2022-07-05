@@ -294,3 +294,58 @@ header{
     font-size: 20px;
     text-align: center;
 }
+
+/* seconda sezione tablet */
+@media (min-width:810px){
+    .container_planning{
+        max-width: 810px;
+        margin: 0 auto;
+    }
+
+    .col-left .title_planning{
+        font-size: 30px;
+    }
+
+    .col-right h3{
+        font-size: 28px;
+    }
+    .section_planning p{
+        font-size: 18px;
+    }
+}
+
+/* seconda section versione desk */
+@media (min-width:1920px){
+    .container_planning{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .container_planning .row_planning{
+        flex-direction: row;
+        gap: 20px;
+    }
+    .col-right .card_planning{
+        align-self: flex-end;
+        height: 548px;
+    }
+    .col-right{
+        display: flex;
+        /* flex-basis: 0;
+        flex-grow: 1; */
+        width: calc(100% / 2);
+    }
+    .card_planning .figure_planning img{
+        width: 70%;
+    }
+
+    .col-left{
+        /* flex-basis: 0;
+        flex-grow: 1; */
+        width: calc(100% / 2);
+    } 
+    .card_left .figure{
+        width: 80%;
+        margin-bottom: 100px;
+    }
+    
+}
