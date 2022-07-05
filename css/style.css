@@ -31,10 +31,19 @@ a{
     
 }
 
+.button-apple{
+    background-color: rgb(0, 132, 253);
+    color: white;
+}
+
 /* container & row */
 
 .row{
     display: flex;
+}
+
+.container_main{
+    padding: 0 34px;
 }
 
 /*header Nav Mobile */
@@ -91,4 +100,69 @@ header{
         max-width: 1100px;
         margin: 0 auto;
     }
+}
+
+
+/* main versione mobile */
+
+/* prima sezione */
+
+.section_demo{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.row_demo{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    
+}
+
+.card_demo{
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    background-color: rgb(181, 221, 255);
+    padding: 0 30px;
+    border-radius: 20px;
+}
+.card-header{
+    padding-top:38px;
+}
+
+.card-header h3{
+    font-size: 1.5rem;
+    text-align: center;
+    color: rgb(0, 132, 253);
+}
+
+.card-header p{
+    font-size: 1rem;
+    text-align:left;
+    line-height: 1.8rem;
+    margin-top: 44px;
+}
+
+.card_button{
+    width: 200px;
+       
+}
+.card_button .button-apple{
+    padding: 16px 40px;
+}
+
+/* card-small */
+.card-small{
+    align-items: center;
+    gap:0;
+    padding: 30px;
+}
+.card-small i{
+    font-size: 80px;
+    color:rgb(0, 132, 253)
+}
+
+.card-small .card-header p{
+    text-align: center;
 }
