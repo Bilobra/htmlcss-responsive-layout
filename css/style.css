@@ -28,6 +28,7 @@ a{
     background-color: white;
     color: black;
     border-radius: 50px;
+   
     
 }
 
@@ -35,6 +36,12 @@ a{
     background-color: rgb(0, 132, 253);
     color: white;
     
+}
+.button-violet{
+    border-radius: 50px;
+    background-color: rgb(151, 146, 228);
+    color: white;
+    padding: 10px 55px;
 }
 
 /* container & row */
@@ -475,4 +482,50 @@ header{
         font-size: 40px;
      }
     
+ }
+
+
+ /* quarta sezione mobile */
+ .section_grid{
+    background-color: rgb(151, 146, 228);
+    padding-top: 80px;
+ }
+ .container_grid{
+    width: 100%;
+    padding: 0 50px ;
+ }
+ .container_grid h2{
+    color: white;
+    
+ }
+ .card_grid{
+    background-color: white;
+    padding: 50px 33px 33px;
+    display:flex ;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 30px;
+ }
+ .card_grid-title h2, 
+ .number{
+    color: rgb(151, 146, 228);
+ } 
+ .number{
+    font-size: 50px;
+    font-weight: 700;
+ }
+
+ .card_grid-body{
+    line-height: 2rem;
+ }
+
+ .row_grid{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+ }
+
+ .col_grid{
+    flex-basis: calc(100% / 6);
  }
