@@ -413,3 +413,66 @@ header{
     flex-wrap: wrap;
     gap: 28px;
  }
+
+ /* terza sezione tablet */
+ @media (min-width:810px){
+    .container_testimonials{
+        width: 810px;
+        margin: 0 auto;
+    }
+
+    .row_testimonials-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+         gap: 28px;
+     }
+     .col_testimonials .card{
+        flex-direction: row;
+        width: 100%;
+     }
+     .row_testimonials h1{
+        font-size: 36px;
+     }
+     .card q{
+        line-height: 2rem;
+        font-size: 20px;
+     }
+    
+     .card address{
+        font-size: 18px;
+     }
+     .col_testimonials .figure img{
+        width: 500px;
+         
+    }
+
+
+ }
+
+ /* terza sezione desk */
+ @media (min-width:1920px){
+    .container_testimonials{
+        width: 1130px;
+        margin: 0 auto;
+    }
+    .card q{
+        line-height: 2rem;
+        font-size: 20px;
+     }
+     .card address{
+        font-size: 20px;
+        margin-top: 20px;
+     }
+     .row_testimonials p{
+        line-height: 2rem;
+        font-size: 20px;
+     }
+     .row_testimonials:first-child{
+        font-size: 20px;
+     }
+     .row_testimonials h1{
+        font-size: 40px;
+     }
+    
+ }
